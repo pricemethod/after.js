@@ -1,6 +1,6 @@
 ![repo-banner](https://user-images.githubusercontent.com/4060187/34948491-454de294-f9db-11e7-8fc5-86985ba05be8.png)
 
-#Lyric fork
+# Lyric fork
 
 The original project was forked in order to enable using custom context object in StaticRouter.
 
@@ -29,6 +29,7 @@ Next.js is awesome. However, its routing system isn't for me. IMHO React Router 
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Lyric fork](#lyric-fork)
 - [After.js](#afterjs)
   - [Project Goals / Philosophy / Requirements](#project-goals--philosophy--requirements)
   - [Getting Started with After.js](#getting-started-with-afterjs)
