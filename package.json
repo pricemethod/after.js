@@ -1,9 +1,9 @@
 {
-  "name": "@jaredpalmer/after",
+  "name": "@lyric-travel/after",
   "private": false,
   "version": "1.3.1",
   "description": "Build isomorphic Javascript applications with ease.",
-  "repository": "jaredpalmer/after.js",
+  "repository": "pricemethod/after.js",
   "author": "Jared Palmer <jared@palmer.net>",
   "license": "MIT",
   "main": "build/index.js",
