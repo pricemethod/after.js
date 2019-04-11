@@ -1,5 +1,13 @@
 ![repo-banner](https://user-images.githubusercontent.com/4060187/34948491-454de294-f9db-11e7-8fc5-86985ba05be8.png)
 
+#Lyric fork
+
+The original project was forked in order to enable using custom context object in StaticRouter.
+
+One thing to note is that latest npm published version is 20 commits behind the master. It acts differently when applied to front-door.  While forking I have reverted master to latest npm published version, v1.3.1, and made necessary changes.
+
+When/if Pull Request that is created on original repo is accepted this repo should be deleted and the original one should be used in front-door.
+
 # After.js
 
 If [Next.js](https://github.com/zeit/next.js) and [React Router](https://github.com/reacttraining/react-router) had a baby...
@@ -21,18 +29,21 @@ Next.js is awesome. However, its routing system isn't for me. IMHO React Router 
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-* [Getting Started with After.js](#getting-started-with-afterjs)
-  * [Razzle Quickstart](#razzle-quickstart)
-* [Data Fetching](#data-fetching)
-  * [`getInitialProps: (ctx) => Data`](#getinitialprops-ctx--data)
-  * [Injected Page Props](#injected-page-props)
-* [Routing](#routing)
-  * [Parameterized Routing](#parameterized-routing)
-  * [Client Only Data and Routing](#client-only-data-and-routing)
-* [Code Splitting](#code-splitting)
-* [Custom `<Document>`](#custom-document)
-* [Author](#author)
-* [Inspiration](#inspiration)
+- [After.js](#afterjs)
+  - [Project Goals / Philosophy / Requirements](#project-goals--philosophy--requirements)
+  - [Getting Started with After.js](#getting-started-with-afterjs)
+    - [Razzle Quickstart](#razzle-quickstart)
+  - [Data Fetching](#data-fetching)
+    - [`getInitialProps: (ctx) => Data`](#getinitialprops-ctx--data)
+    - [Injected Page Props](#injected-page-props)
+  - [Routing](#routing)
+    - [Parameterized Routing](#parameterized-routing)
+    - [Client Only Data and Routing](#client-only-data-and-routing)
+  - [Code Splitting](#code-splitting)
+  - [Custom `<Document>`](#custom-document)
+  - [Custom/Async Rendering](#customasync-rendering)
+  - [Author](#author)
+  - [Inspiration](#inspiration)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
