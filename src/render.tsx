@@ -36,10 +36,11 @@ export async function render<T>(options: AfterRenderProps<T>) {
     assets,
     document: Document,
     customRenderer,
+    customContext,
     ...rest
   } = options as any;
   const Doc = Document || DefaultDoc;
-  const context = {};
+  const context = customContext || {};
   const renderPage = async (fn = modPageFn) => {
 
     // By default, we keep ReactDOMServer synchronous renderToString function
